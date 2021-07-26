@@ -108,7 +108,7 @@ header a {
   }
 
 .tienda:hover {
-    background-size: 60% 3px;
+    background-size: 55% 3px;
   }
 
 .logo-svg {
@@ -204,7 +204,12 @@ header a {
   padding: .45em 1.7em;
 }
 
-
+.hero .btn:active,
+.hero .btn:hover {
+  color: #FFF;
+  background-color: #000;
+  border: 3px solid #000;
+}
 
 
 /*INTRO*/
@@ -523,6 +528,13 @@ header a {
   padding: .7em 1.9em;
 }
 
+.outro-text .btn:active,
+.outro-text .btn:hover {
+  color: #7DC166;
+  background-color: #FFF;
+  border: 3px solid #FFF;
+}
+
 .outro-text p {
   width: 42%;
   font-size: clamp(14px, 2.5vw, 30px);
@@ -751,6 +763,7 @@ footer .copy {
     flex-direction: column;
     align-items: center;
     padding-left: 3em;
+    text-transform: lowercase;
   }
     .sidebar ul {
       list-style: none;
@@ -793,7 +806,7 @@ footer .copy {
   }
   .hero p {
     width: 70vw;
-    margin: 30vw 0 0 0;
+    margin: 40vw 0 0 0;
     padding: 0 1em;
     text-align: center;
   }
