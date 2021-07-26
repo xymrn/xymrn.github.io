@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,600;1,400&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,600;1,400&display=swap');*/
+@font-face {
+  font-family: 'Epilogue';
+  src: url('fonts/Epilogue-VariableFont_wght.ttf') format('truetype');
+}
 
 body {
   font-family: Epilogue, sans-serif;
