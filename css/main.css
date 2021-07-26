@@ -181,7 +181,7 @@ header a {
 }
 
 .subrayado {
-  width: 35%;
+  width: 45%;
 }
 
 .hero h1 {
@@ -789,7 +789,7 @@ footer .copy {
     width: 35vw;
   }
   .subrayado {
-    width: inherit;
+    width: 60%;
   }
   .hero p {
     width: 70vw;
