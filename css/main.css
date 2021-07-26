@@ -1,6 +1,4 @@
-/** {
-  border: 1px solid red;
-}*/
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,600;1,400&display=swap');
 
 body {
   font-family: Epilogue, sans-serif;
@@ -175,10 +173,6 @@ header a {
   width: 25%;
   padding-top: 10%;
   margin-bottom: 2%;
-
-
-
-
 }
 
 .subrayado {
@@ -296,7 +290,7 @@ header a {
 
 .flatlay h2 {
   font-size: clamp(18px, 4.2vw, 3.1rem);
-  font-weight: normal;
+  font-weight: 600;
 }
 
 .flatlay-one h2,
