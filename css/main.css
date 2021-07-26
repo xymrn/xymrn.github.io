@@ -1,9 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,600;1,500&display=swap');
+
 @font-face {
   font-family: 'Epilogue';
   src: url('../fonts/Epilogue-VariableFont_wght.ttf') format('truetype');
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,600;1,500&display=swap');
 
 
 body {
