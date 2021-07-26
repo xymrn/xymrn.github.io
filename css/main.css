@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Epilogue';
-  src: url('fonts/Epilogue-Regular.ttf') format('truetype');
-  src: url('fonts/Epilogue-Italic.ttf') format('truetype');
-  src: url('fonts/Epilogue-SemiBold.ttf') format('truetype');
+  src: url('../fonts/Epilogue-VariableFont_wght.ttf') format('truetype');
 }
+
+
 
 body {
   font-family: Epilogue, sans-serif;
