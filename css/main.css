@@ -1,9 +1,6 @@
-@font-face {
-  font-family: 'Epilogue';
-  src: url('../fonts/Epilogue-VariableFont_wght.ttf') format('truetype');
-}
-
-
+/** {
+  border: 1px solid red;
+}*/
 
 body {
   font-family: Epilogue, sans-serif;
@@ -34,11 +31,10 @@ p, h2, h1, a {
 .btn {
   letter-spacing: 0.01em;
   color: inherit;
-  font-family: 'Epilogue', sans-serif;
+  font-family: Epilogue;
   border: 3px solid;
   border-radius: 100px;
   background-color: rgba(0,0,0,0);
-  cursor: pointer;
 }
 
 img {
@@ -109,7 +105,7 @@ header a {
   }
 
 .tienda:hover {
-    background-size: 55% 3px;
+    background-size: 60% 3px;
   }
 
 .logo-svg {
@@ -179,6 +175,10 @@ header a {
   width: 25%;
   padding-top: 10%;
   margin-bottom: 2%;
+
+
+
+
 }
 
 .subrayado {
@@ -205,12 +205,7 @@ header a {
   padding: .45em 1.7em;
 }
 
-.hero .btn:active,
-.hero .btn:hover {
-  color: #FFF;
-  background-color: #000;
-  border: 3px solid #000;
-}
+
 
 
 /*INTRO*/
@@ -275,7 +270,6 @@ header a {
 
 .memento {
   font-size: clamp(20px, 3vw, 2.5rem);
-  font-weight: 600;
   text-transform: lowercase;
   letter-spacing: .2em;
 }
@@ -302,7 +296,7 @@ header a {
 
 .flatlay h2 {
   font-size: clamp(18px, 4.2vw, 3.1rem);
-  font-weight: 600;
+  font-weight: normal;
 }
 
 .flatlay-one h2,
@@ -529,13 +523,6 @@ header a {
   padding: .7em 1.9em;
 }
 
-.outro-text .btn:active,
-.outro-text .btn:hover {
-  color: #7DC166;
-  background-color: #FFF;
-  border: 3px solid #FFF;
-}
-
 .outro-text p {
   width: 42%;
   font-size: clamp(14px, 2.5vw, 30px);
@@ -564,10 +551,12 @@ header a {
 
 .box img {
   width: 100%;
+  cursor: pointer;
 }
 
 .display p {
   color: grey;
+  font-size: clamp(11px, 1.5vw, 24px);
   margin: 10px 0px;
 }
 
@@ -614,6 +603,7 @@ header a {
  }
 
 
+
 /* FOOTER  */
 
 footer {
@@ -625,6 +615,10 @@ footer {
 footer ul {
   list-style: none;
   padding: 0px 0px;
+}
+
+footer ul li {
+  cursor: pointer;
 }
 
 footer .container {
@@ -697,7 +691,7 @@ footer .copy {
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
 
   p {
@@ -737,12 +731,14 @@ footer .copy {
   }
   .burguer /*(img)*/ {
     width: 2em;
+    padding: 1em;
   }
   .exit{
     width: 2em;
     padding: 2em 0;
   }
   .cart-m {
+    cursor: pointer;
     display: block;
     position: absolute;
     width: 2.5em;
@@ -764,7 +760,7 @@ footer .copy {
     background: #000;
     color: #FFF;
     display: block;
-    position: fixed;
+    position: absolute;
     z-index: 0;
     top: 0;
     left: 0;
@@ -773,11 +769,10 @@ footer .copy {
     width: 80%;
     height: 100vh;
     max-height: 650px;
-    box-shadow: 3px 3px 20px #000;
+    box-shadow: 2px 0px 15px #000;
     flex-direction: column;
     align-items: center;
-    padding-left: 3em;
-    text-transform: lowercase;
+    padding-left: 2.5em;
   }
     .sidebar ul {
       list-style: none;
@@ -816,11 +811,11 @@ footer .copy {
     width: 35vw;
   }
   .subrayado {
-    width: 60vw;
+    width: inherit;
   }
   .hero p {
     width: 70vw;
-    margin: 40vw 0 0 0;
+    margin: 45vw 0 0 0;
     padding: 0 1em;
     text-align: center;
   }
