@@ -41,7 +41,38 @@ img {
   max-width: 100%;
 }
 
+.hero,
+.img-1,
+.img-2 {
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 2s; /* Firefox < 16 */
+      -ms-animation: fadein 2s; /* Internet Explorer */
+       -o-animation: fadein 2s; /* Opera < 12.1 */
+          animation: fadein 2s;
+}
 
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 
 
 /*HEADER*/
@@ -49,7 +80,7 @@ img {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 1.5% 5% 0 12%;
+  padding: 2% 5% 0 10%;
   align-items: flex-end;
 }
 
@@ -57,12 +88,13 @@ header a {
   font-size: clamp(1px, 2vw, 30px);
   text-decoration: none;
   color: #000;
-  line-height: 100%
+  line-height: 100%;
 }
 
 .link {
+  padding-bottom: .5em;
   transition: all 0.3s linear;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 98%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
   background-size: 0px 3px;
   background-repeat: no-repeat;
   background-position: left 100%;
@@ -78,18 +110,20 @@ header a {
 
 .logo-svg {
   width: 15%;
+  padding-bottom: .5em;
 }
 
 .cart {
   width: 3vw;
   max-width: 42px;
   margin-top: auto;
+  cursor: pointer;
 }
 
 .cart-m {
   display: none;
 }
-  
+
 .tienda {
   width: 15%;
   display: flex;
