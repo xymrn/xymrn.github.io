@@ -86,6 +86,10 @@ header a {
   margin-top: auto;
 }
 
+.cart-m {
+  display: none;
+}
+  
 .tienda {
   width: 15%;
   display: flex;
@@ -679,6 +683,7 @@ footer .copy {
     padding: 2em 0;
   }
   .cart-m {
+    display: block;
     position: absolute;
     width: 2.5em;
     top: 0;
