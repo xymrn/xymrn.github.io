@@ -440,7 +440,7 @@ header a {
 .pocket h2 {
   width: 65%;
   padding-left: 8%;
-  font-size: clamp(2px, 2.5vw, 2rem);
+  font-size: clamp(2px, 2vw, 2rem);
 }
 
 /*____________*/
@@ -491,7 +491,7 @@ header a {
 
 .item-list-text p {
   text-align: right;
-  font-size: clamp(2px, 2.1vw, 1.8em);
+  font-size: clamp(2px, 1.8vw, 1.8em);
   padding-right: 5em;
   width: 50%;
   margin: 2.5vw 3vw 10% 0;
